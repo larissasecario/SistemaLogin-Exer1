@@ -1,0 +1,62 @@
+.mainGlobal{
+    background-color: #ffffff;
+    width: 40rem;
+    height: 35rem;
+    box-shadow: 3px 0px 20px -20px rgba(0,0,0,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 20px;
+
+}
+
+
+.mainGlobal input, .sairMain input {
+    margin: 10px;
+    width: 30rem;
+    height: 4rem;
+    padding: 20px;
+    background-color: #e7e7e7;
+    border: none;
+    font-size: 19px;
+
+}
+
+#btnEntrar, #btnIncrever, #btnSair{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0;
+    background-color: #8282F6;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+#btnEntrar:hover, #btnIncrever:hover, #btnSair:hover{
+    background-color: #4e4e88;
+}
+
+#informacao{
+    color: rgb(197, 62, 62);
+    font-size: 22px;
+
+}
+
+#mensagemCadastro{
+    font-size: 22px;
+}
+
+#linkCadastro{
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #8282F6;
+    cursor: pointer;
+}
+
+#linkCadastro:hover{
+  color: #4e4e88;
+
+}
